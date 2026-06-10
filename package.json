@@ -1,0 +1,27 @@
+{
+  "name": "dairy-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellendix/dairy-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ellendix/dairy-api/issues"
+  },
+  "homepage": "https://github.com/Ellendix/dairy-api#readme",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "dotenv": "^17.4.2",
+    "mocha": "^11.7.6",
+    "supertest": "^7.2.2"
+  }
+}
