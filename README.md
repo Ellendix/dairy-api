@@ -27,23 +27,6 @@ tests/
       checkout.test.js
 ```
 
----
-
-## Variáveis de Ambiente
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```env
-BASE_URL=https://api.dairyapp.ai
-EMAIL=seu_email
-PASSWORD=sua_senha
-
-CHECKOUT_PLANS_ENDPOINT=/plans
-CHECKOUT_SESSION_ENDPOINT=/subscriptions/checkout
-USER_PLAN_ENDPOINT=/users/me
-```
-
----
 
 # Cobertura Atual de API
 
@@ -277,13 +260,3 @@ Não devem ser automatizados cenários de pagamento aprovado enquanto não exist
 * Cobertura de segurança de payload no checkout
 
 ---
-
-## Próximos passos recomendados
-
-* Ajustar o checkout para utilizar ambiente sandbox de pagamento
-* Adicionar validações mais específicas no retorno de `/users/me/plan`
-* Adicionar validações mais específicas no retorno de `/users/me/usage`
-* Criar testes para refresh token
-* Criar testes para logout, se existir endpoint
-* Integrar os testes ao CI/CD
-* Separar testes smoke e regressão
